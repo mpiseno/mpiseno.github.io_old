@@ -16,17 +16,18 @@ social: true  # includes social icons at the bottom of the page
 
 ###### <b>About Me</b>
 
-I am a MS student at Stanford University studying computer science. I am interested in robots that are able to learn complex behaviors and solve tasks in intelligent ways. This lands me at the intersection of machine learning and robotics.
+I am a first year Computer Science MS student at Stanford University. I am interested in robots that are able to learn complex behaviors and solve tasks in intelligent ways. I have also worked on research and ML engineering at <a href="{{ site.baseurl }}/experience/">various companies</a>.
 
-I attended the University of Georgia for one year before transferring to Georgia Tech, where I received my BS in computer science with highest honors and a minor in mathematics. At GT, I was a teaching assistant for [CS 7643: Deep Learning](https://www.cc.gatech.edu/classes/AY2021/cs7643_fall/), a Senior Class Representative in student government, and a member of the board of directors in [SHPE](https://gt-shpe.com/).
+<!-- I am a first year Computer Science MS student at Stanford University. My research focuses on developing robots cabale of learning complex behaviors and solving tasks in intelligent ways. I am the president of the Stanford Robotics Club and co-founder of Popcorn (YC W22) and have worked on research and ML engineering at various companies. -->
 
-###### <b>Research Interests</b>
+I attended the University of Georgia for one year before transferring to Georgia Tech, where I completed my Bachelors in Computer Science and a minor in Mathematics. While attending GT, I was a teaching assistant for [CS 7643: Deep Learning](https://www.cc.gatech.edu/classes/AY2021/cs7643_fall/).
+
+<!-- ###### <b>Research Interests</b>
 
 I am interested in developing algorithms that allow robots to intelligently perform complex tasks. I am also interested in robots that can handle changing environment conditions and that can collaborate. For example, a robot that learns to traverse hazardous terrain to move materials between two locations along with humans and other robots.
 
-Ultimately, I am interested in utilizing advances in intelligent robotics for planetary exploration and to automate dangerous and repetitive tasks on Earth.
+Ultimately, I am interested in utilizing advances in intelligent robotics for planetary exploration and to automate dangerous and repetitive tasks on Earth. -->
 
-<!-- I work at the intersection of reinforcement learning and robotics. I am interested in developing algorithms that allow robots to interact with both humans and other agents in intelligent ways. More specificically, I am interested in modeling multi-agent systems that can operate and adapt in dynamic real-world (or extraterrestrial) environments. -->
 
 <!-- ###### <b>Background and Personal Interests</b>
 
