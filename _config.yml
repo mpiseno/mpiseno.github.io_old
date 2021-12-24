@@ -64,8 +64,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: My Deep Learning Blog  # your blog must have a name for it to show up in the nav bar
-blog_description: Topics from CS 7643 and stuff I find interesting
+blog_name: Michael's Blog # your blog must have a name for it to show up in the nav bar
+blog_description: Stuff I find interesting
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -88,9 +88,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  experiences:
-    output: true
-    permalink: /experiences/:path/
+  # experiences:
+  #   output: true
+  #   permalink: /experiences/:path/
 
 news_limit: 5
 
