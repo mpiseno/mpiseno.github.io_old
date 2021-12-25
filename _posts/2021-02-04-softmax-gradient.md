@@ -2,7 +2,7 @@
 layout: post
 title: Gradient of Softmax Cross-Entropy Loss
 date: 2021-02-4 11:12:00-0400
-description:
+description: A derivation of the gradients in a softmax + cross-entropy layer
 released: true
 ---
 
@@ -65,8 +65,6 @@ $$
 $$
 
 So the gradient of the softmax cross-entropy amounts to subtracting 1 from value at the index of the correct class! We also could have computed the full row vector $$\frac{\partial L}{\partial \mathbf{s}}$$ and Jacobian matrix $$\frac{\partial \mathbf{s}}{\partial \mathbf{z}}$$ and matrix multiplied them. However, the former is sparse, so it simplified the computation a lot to do it how we did above. Furthermore, the method above shows that when computing gradients for backpropagation, we can use the fact that the flow of computation is such that the entries of $$\mathbf{s}$$ that are not at the correct class's index do not contribute to the loss, so we don't need to consider them.
-
-Hopefully this helped you guys out. Stay positive and test negative y'all.
 
 
 

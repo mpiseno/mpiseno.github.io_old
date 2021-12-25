@@ -15,15 +15,45 @@ pagination:
 <!-- Can't figure out how to just have 1 page so I hacked the paginator. Make sure 'per_page' is
 always >= number of posts  -->
 
+<style type="text/css">
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-date {
+    color: gray;
+}
+
+.post-description {
+    margin-right: 2rem;
+}
+
+</style>
+
 <div class="post">
 
-  <div class="header-bar">
-    <h3>{{ site.blog_name }}</h3>
-    <!-- <h2>{{ site.blog_description }}</h2> -->
-  </div>
+<center>
+    <h3>Michael Piseno's Blog</h3>
+</center>
+<hr>
+
+{% for post in paginator.posts %}
+    {% if post.released %}
+    <h5>
+        <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h5>
+    <div class="post-info">
+        <p class="post-description">{{ post.description }}</p>
+        <p class="post-meta post-date">{{ post.date | date: '%B %-d, %Y' }}</p>
+    </div>
+    
+    {% endif %}
+{% endfor %}
 
 
-  <ul class="post-list">
+  <!-- <ul class="post-list">
     {% for post in paginator.posts %}
       {% if post.released %}
         <li>
@@ -33,7 +63,7 @@ always >= number of posts  -->
         </li>
       {% endif %}
     {% endfor %}
-  </ul>
+  </ul> -->
 
   <!-- {% include pagination.html %} -->
 

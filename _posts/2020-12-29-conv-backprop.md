@@ -2,7 +2,7 @@
 layout: post
 title: Backpropagation in Convolutional Layers
 date: 2020-12-29 11:12:00-0400
-description:
+description: A derivation of the gradients involved in colvutional layers
 released: true
 ---
 
@@ -123,11 +123,5 @@ $$
     &= \sum_{a=0}^{k_{1}-1}\sum_{b=0}^{k_{2}-1} \frac{\partial L}{\partial \mathbf{y}[r'-a, c'-b]} \mathbf{w}[a, b]
 \end{align*}
 $$
-
-
-## Closing Remarks
-
-Hopefully this post was a helpful and concise explanation of backprop in conv layers. I am purposefully omitting code since that's part of the homework for 7643. This is also good practice for defining the backward pass of other layers, which we will have to do a lot in CS 7643. Anyway, email me with questions, comments, passionate rants, and the like. Stay hydrated y'all.
-
 
 
