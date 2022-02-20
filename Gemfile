@@ -9,4 +9,6 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
+    gem "nokogiri", ">= 1.6.7.rc"
+    gem "webrick", "~> 1.7"
 end

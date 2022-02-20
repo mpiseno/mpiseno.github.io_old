@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <b>Quick Links:</b> <a href="/assets/pdf/michael_piseno_cv.pdf", target="_blank">CV</a>
+description: <a href="/assets/pdf/michael_piseno_cv.pdf", target="_blank">CV</a> · <a href="https://twitter.com/michaelpiseno_", target="_blank">twitter</a> · <a href="https://github.com/mpiseno", target="_blank">github</a> · <a href="https://www.linkedin.com/in/mpiseno/", target="_blank">linkedin</a>
 
 profile:
   align: right
@@ -11,13 +11,14 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 ###### <b>About Me</b>
 
 <p align="justify">
-I am a Master's student in the CS department at Stanford University. I work on AI and robotics in the <a href="https://iliad.stanford.edu/" target="_blank">Intelligent and Interactive Autonomous Systems Group (ILIAD)</a>, advised by <a href="https://dorsa.fyi/" target="_blank">Dorsa Sadigh</a>. I co-founded <a href="https://www.popcornapp.io/" target="_blank">Popcorn</a>, a Q&A platform for classes. I will also be joining Google Brain in the Spring to work on agile robotics.
+I am a Master's student in Computer Science at Stanford University. I work on AI and robotics in the <a href="https://iliad.stanford.edu/" target="_blank">Intelligent and Interactive Autonomous Systems Group (ILIAD)</a>, advised by <a href="https://dorsa.fyi/" target="_blank">Dorsa Sadigh</a>.<!-- I am a research intern on the robotics team at Google Brain. --> I also co-founded <a href="https://www.popcornapp.io/" target="_blank">Popcorn</a>, a Q&A platform for classes.
+
 </p>
 
 <p align="justify">
