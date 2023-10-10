@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="/assets/pdf/michael_piseno_cv.pdf", target="_blank">CV</a> · <a href="https://github.com/mpiseno", target="_blank">Github</a> · <a href="https://twitter.com/michaelpiseno_", target="_blank">Twitter</a>
+description: <a href="/assets/pdf/michael_piseno_cv.pdf", target="_blank">CV</a> · <a href="https://github.com/mpiseno", target="_blank">Github</a>
 
 profile:
   align: right
@@ -27,9 +27,5 @@ Outside research, I co-created <a href="https://www.popcornapp.io/" target="_bla
 
 <p align="justify">
 Prior to Stanford, I attended the University of Georgia for one year before transferring to Georgia Tech, where I completed my Bachelors in Computer Science and a minor in Mathematics. I TAed <a href="https://www.cc.gatech.edu/classes/AY2021/cs7643_fall/" target="_blank">CS 7643</a> (Deep Learning) at Georgia Tech for two years.
-</p>
-
-<p align="justify">
-Outside of school, I like to box and race triathlon. <!-- I also co-founded Popcorn, a Q&A platform for academic researchers. -->
 </p>
 
